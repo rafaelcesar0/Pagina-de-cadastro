@@ -8,7 +8,7 @@
 }
 
 body{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ body{
     border-radius: 10px 0px 0px 10px;
     justify-content: center;
     align-items: center;
-    background-color: #fde3a7d7;
+    background-color: #fdefcfd7;
 }
 
 .form-image img{
@@ -194,18 +194,15 @@ body{
 @media screen and (max-width: 600px){
     .conteiner{
         width: 90%;
-        height: 80vh;
-    }
-    .form{
-        padding: 40vh 3rem;
+        height: 90%;
     }
     .input-group{
         flex-direction: column;
         overflow-y: scroll;
         flex-wrap: nowrap;
-        max-height: 20rem;
+        max-height: 10rem;
         min-width: auto;
-        padding-right: 3rem;
+        padding: 0rem 0.8rem 0rem 0.8rem;
     }
     .gender-inputs{
         margin-top: 2rem;
