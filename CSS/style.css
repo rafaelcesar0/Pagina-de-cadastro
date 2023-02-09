@@ -19,7 +19,7 @@ body{
 
 .container{
     min-width: none;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 10px;
     height: 550px;
     display: flex;
@@ -79,6 +79,7 @@ body{
     border: none;
     background-color: #63FFFD;
     padding: 0.4rem 1rem;
+    margin-left: 20px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -180,7 +181,7 @@ body{
         display: none;
     }
 
-    .conteiner{
+    .container{
         width: 50%;
     }
 
@@ -193,15 +194,21 @@ body{
 }
 
 @media screen and (max-width: 600px){
-    .conteiner{
-        width: 90%;
-        height: 90%;
+    .container{
+        min-width: 310px;
+        height: 90vh;
+    }
+    .form{
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 340px;
     }
     .input-group{
         flex-direction: column;
         overflow-y: scroll;
         flex-wrap: nowrap;
-        max-height: 10rem;
+        max-height: 15rem;
         min-width: auto;
         padding: 0rem 0.8rem 0rem 0.8rem;
     }
