@@ -182,18 +182,19 @@ body{
     }
 
     .container{
-        width: 50%;
+        max-width: 700px;
+        min-width: 500px;
     }
 
     .form{
         width: 100%;
     }
     .input-group{
-        max-width: 40rem;
+        max-width: 90%;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 647px){
     .container{
         min-width: 310px;
         height: 90vh;
